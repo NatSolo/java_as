@@ -1,9 +1,21 @@
 package ru.stqa.pft.training;
 
-public class TempTest{
-	
-	public static void main(String[] args) {
+import java.sql.SQLOutput;
 
-System.out.println("Hello, World");
+public class TempTest {
+
+	public static void main(String[] args) {
+		String something = "World!";
+
+		System.out.println("Hello, " + something);
+
+		double l  = 8.0;
+		double s = l*l;
+		System.out.println("Square with the side " + l + " = " + s);
+
+
+
+
+
 	}
 }
